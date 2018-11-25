@@ -1,0 +1,383 @@
+html {
+  font: 100%/1.5em sans-serif;
+  max-width: 1920px;
+}
+
+body {
+  font-size: 0.8em;
+}
+
+* {
+  font-family:'Roboto condensed', sans-serif;
+  font-weight: 300;
+}
+
+/* T Y P O G R A P H Y */
+
+h1 {
+  margin: 0; /*usuwa margines z logo*/
+}
+
+h1, h2, h3, nav[role="primary"] a, i {
+  color: #444;
+}
+
+h2 {
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+  font-size: 3em;
+  padding: 0;
+  margin-bottom: 0em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.3em;
+}
+
+h2 span {
+  text-transform: none;
+  font-family: Roboto;
+}
+
+h3 {
+    font-size: 1em;
+    letter-spacing: 0.18em;
+    padding: 2em 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+/* L O G O */
+
+h1.logo a {
+  width: 231px;
+  height: 82px;
+  display: block;
+  background: url(../img/logo-alc1.png);
+  /*margin: 0 auto;*/
+  margin: 0;
+  border: 0;
+  font-size: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color: transparent;
+  float: left;
+}
+
+/* H E A D E R   C O N T A C T */
+
+.header-contact {
+  border-bottom: 1px solid #ececec;
+}
+
+.fast-contact {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.fast-contact a {
+  display: inline-block;
+  color: #999;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  padding: 0.8em 0.8em;
+  -webkit-transition: all 0.5s; /* Safari */
+  transition: all 0.5s;
+}
+
+.fast-contact a:hover {
+  color: #d44827;
+  text-decoration: none;
+}
+
+.fast-contact i {
+  font-weight: 400;
+}
+
+/* B A N N E R */
+
+.hero-unit  {
+  background:  #fbfbfb url(../img/banner8-5.png) no-repeat center left;
+  background-size: cover;
+  padding-top: 400px;
+  color: #fff;
+}
+
+.hero-unit h2 {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 0.5em;
+    line-height: 1.1em;
+    clear: both;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+.black {
+  background: rgba(2,2,2,0.3);
+  margin: 0;
+  padding: 2em;
+}
+
+.hero-unit h2 small, h2 small {
+  color: #fff;
+  font-family: 'Roboto condensed', serif;
+  display: inline-block;
+  clear: both;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: none;
+}
+.pagin {
+  padding: 1em 0;
+  border-bottom: 1px solid #ececec;
+}
+.pagin a {
+  color: #444;
+}
+.pagin span {
+  color: #d44827;
+}
+
+.samochod {
+  background: #fbfbfb url(../img/naprawa1.png) no-repeat 30% center;
+  background-position: cover;
+}
+.samochodx {
+  padding: 7em 0;
+}
+.samochodx img {
+  box-shadow: 0px 0px 10px #444;
+}
+.samochodx .col-sm-6 {
+  padding: 2em;
+}
+.samochodx h2 {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 20px;
+  /*font-size: 2.5em;*/
+}
+.samochod .content {
+  background: rgba(255,255,255,0.9);
+  padding: 3em 3em;
+}
+
+.samochodx .content p {
+  text-align: justify;
+  margin-bottom: 1em;
+}
+.samochod h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: 300;
+}
+
+/* B U T T O N S */
+
+.button {
+  display: inline-block;
+  padding: 1em 2em;
+  line-height: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-transition: background-color 0.5s, border 0.5s; /* Safari */
+  transition: background-color 0.5s, border 0.5s;
+
+  font-family: 'Roboto condensed';
+  font-weight: 700;
+  font-size: 1em;
+  letter-spacing: 0.18em;
+}
+
+.button1 {
+  color: #fff;
+  border: 3px solid #d44827;
+
+}
+
+.button2 {
+  color: #fff;
+  border: 3px solid #d44827;
+  background: #d44827;
+  margin-left: 1.5em;
+}
+.button3 {
+  color: #fff;
+  border: 3px solid #d44827;
+  background: #d44827;
+  padding: 0.5em 1em;
+}
+
+a.button-zakres {
+  margin-top: 1em;
+  background-color: #d44827;
+  border: 3px solid #d44827;
+  color: #fff;
+  /*border: 3px solid #d44827;*/
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #d44827;
+  border: 3px solid #fff;
+  text-decoration: none;
+  box-shadow: 0px 0px 15px #444;
+}
+
+/* S E C T I O N S */
+
+section {
+    padding: 5em 0;
+}
+
+section .img-responsive {
+  margin: 0 auto;
+}
+
+.opinie {
+    background: #f8f8f8 url(../img/background-blue-2.png) no-repeat center center fixed;
+    background-size: cover;
+    color: #f4f4f4;
+}
+.opinie .col-sm-4 {
+  padding: 0 2em;
+}
+.opinie h2, .opinie h3 {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.opinie cite {
+  text-indent: 10px;
+  display: block;
+  float: left;
+}
+.opinie cite:before {
+  content: '"';
+  font-weight: bold;
+  display: block;
+  float: left;
+  font-size: 2em;
+}
+.opinie h2 {
+  margin-bottom: 1em;
+}
+
+.opinie p {
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.partnerzy ul li {
+    float: left;
+    list-style: none;
+    padding: 0 40px;
+}
+.partnerzy h2 {
+  margin: 0 0 1em 0;
+  color: #666;
+}
+/* F O O T E R */
+
+footer {
+  background-color: #444;
+  padding: 2em 0;
+  color: #999;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  list-style: none;
+}
+footer i {
+  margin-right: 0.5em;
+  color: #999;
+}
+footer h3 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2em;
+}
+footer a {
+  color: #999;
+}
+
+footer a:hover {
+  color: #d44827;
+  text-decoration: none;
+}
+
+footer h3 {
+  color: #fff;
+}
+
+.cookies {
+  padding: 1em;
+  background-color: #333;
+}
+
+/* M E D I A   Q U E R Y */
+
+@media screen and (min-width: 450px) {
+  
+  body {
+    font-size: 1em;
+    line-height: 1.7em;
+  }
+
+  h1.logo {
+    float: left;
+  }
+
+  .zakres-uslug .col-md-4 div.zakres {
+  padding-top: 300px;
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+   
+   .zakres-uslug .col-md-4 div.zakres {
+  padding-top: 400px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  
+  header {
+    padding: 2em 0;
+  }
+  
+  .zakres-uslug .col-md-4 div.zakres {
+  padding-top: 300px;
+  }
+
+  .header-contact .container {
+    position: relative;
+  }
+
+  .fast-contact {
+    position: absolute;
+    right: 2em;
+    top: 0em;
+    width: auto;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .fast-contact a:first-child {
+    border-right: 1px solid #ececec;
+  }
+
+  .samochod .content div {
+  width: 80%;
+  }
+  
+}

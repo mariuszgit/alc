@@ -1,0 +1,53 @@
+/* B A N N E R */
+
+.hero-unit-kontakt {
+  background: #fbfbfb url(../img/banner-kontakt.png) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+.hero-unit-kontakt h2 {
+  color: #fff;
+  margin: 2em 0;
+  text-align: left;
+  }
+
+/* S E C T I O N S */
+
+section.kontakt .col-md-6 {
+  padding: 1em;
+} 
+section h2 {
+  margin-bottom: 1em;
+}
+
+section h3:first-child {
+  padding-top: 0;
+}
+section.mapa {
+    padding: 0;
+  }
+
+section.mapa h2 {
+  display: none;
+}
+
+.kontakt span.glyphicon {
+  font-size: 2em;
+  color: #5991a9;
+}
+
+.kontakt p a {
+  color: #777;
+}
+
+.kontakt p a:hover {
+  color: #d44827;
+  text-decoration: none;
+}
+
+.button-kontakt {
+  color: #fff;
+  border: 3px solid #d44827;
+  background: #d44827;
+}

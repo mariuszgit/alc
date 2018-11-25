@@ -1,0 +1,23 @@
+/* B A N N E R */
+
+.hero-unit-onas {
+  background: #fbfbfb url(../img/banner-kontakt.png) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+.hero-unit-onas h2 {
+  color: #fff;
+  margin: 2em 0;
+  text-align: left;;
+}
+
+/* S E C T I O N S */
+
+section h2 {
+  text-align: left;
+}
+
+section p {
+  margin-bottom: 1.5em!important;
+}

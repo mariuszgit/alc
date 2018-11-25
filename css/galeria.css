@@ -1,0 +1,24 @@
+/* B A N N E R */
+
+.hero-unit-galeria {
+  background: #fbfbfb url(../img/banner-galeria.png) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+.hero-unit-galeria h2 {
+    color: #fff;
+    margin: 2em 0;
+    text-align: left;
+  }
+
+/* S E C T I O N S */
+
+section.galeria .col-md-4 {
+  margin: 0!important;
+  padding: 0.2em!important;
+} 
+section.galeria img.img-responsive {
+  margin: 0 auto;
+  width: 100%;
+}

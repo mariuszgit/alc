@@ -1,0 +1,58 @@
+/* B A N N E R */
+
+.hero-unit-oferta {
+  background:  #fbfbfb url(../img/banner-oferta-2.png) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+.hero-unit-oferta h2 {
+    color: #fff;
+    margin: 2em 0;
+    text-align: left;
+
+  }
+
+section h2 {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+/* S E C T I O N S */
+.zakres-uslug .img {
+  padding: 0;
+}
+img {
+  margin: 0em auto!important;
+  margin-left: 100px;
+}
+.zakres-uslug .row {
+  /*box-shadow: 0px 0px 10px #444;*/
+  margin-bottom: 2em;
+ /* border: 1px solid #ddd;*/
+}
+.zakres-uslug .col-sm-8 h2  {
+  margin-bottom: 0.5em;
+  color: #d44827;
+  font-size: 2em;
+}
+.zakres-uslug img {
+  box-shadow: 0px 0px 10px #444;
+}
+.zakres-uslug h2 {
+  font-size: 2em;
+  color: #d44827;
+  margin-bottom: 10px;
+}
+.zakres-uslug .col-sm-6 {
+  padding: 0 2em;
+}
+.col-sm-4 {
+  padding: 0;
+}
+
+.zakres-uslug .row:nth-child(even) h2 {
+  /*text-align: right;*/
+}
+
+
