@@ -148,14 +148,33 @@ h1.logo a {
 .samochodx {
   padding: 7em 0;
 }
-.samochodx img {
-  box-shadow: 0px 0px 10px #444;
+.samochodx .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+.samochodx .row .col-sm-12:nth-child(1) {
+  display: none;
+} 
+.samochodx .image {
+  overflow: hidden;
+}
+.samochodx img {
+  /* box-shadow: 0px 0px 10px #444; */
+  transition: .5s ease-in-out;
+}
+
+.samochodx img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .samochodx .col-sm-6 {
   padding: 2em;
 }
 .samochodx h2 {
-  text-align: left;
+  /* text-align: left; */
   margin-top: 0;
   margin-bottom: 20px;
   /*font-size: 2.5em;*/
@@ -165,10 +184,16 @@ h1.logo a {
   padding: 3em 3em;
 }
 
+
+
 .samochodx .content p {
   text-align: justify;
   margin-bottom: 1em;
 }
+
+.samochodx .content p {
+  text-align: center;
+} 
 .samochod h2 {
   margin-top: 0;
   margin-bottom: 0.5em;
@@ -379,5 +404,21 @@ footer h3 {
   .samochod .content div {
   width: 80%;
   }
+
+  .samochodx .row {
+    flex-direction: row;
+  }
   
+  .samochodx h2 {
+    text-align: left;
+  }
+
+  .samochodx .content p {
+    text-align: justify;
+  }
+
+  .samochodx .row .col-sm-12:nth-child(1) {
+    display: block;
+  } 
+
 }
