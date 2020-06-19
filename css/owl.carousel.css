@@ -214,3 +214,7 @@
   position: relative;
   z-index: 1;
 }
+
+.banner2 {
+  margin-left: 0;
+}
